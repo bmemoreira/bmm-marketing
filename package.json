@@ -1,0 +1,37 @@
+{
+  "name": "bmm-marketing-booking",
+  "version": "1.0.0",
+  "description": "Sistema de agendamento com Google Calendar e Google Docs para BMM Marketing",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "install-deps": "npm install"
+  },
+  "keywords": [
+    "google-calendar",
+    "booking",
+    "marketing",
+    "email-notifications"
+  ],
+  "author": "Baltasar Mendes Moreira",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "google-auth-library": "^8.8.0",
+    "googleapis": "^118.0.0",
+    "nodemailer": "^6.9.7",
+    "axios": "^1.6.0",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.45",
+    "express-session": "^1.17.3",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "body-parser": "^1.20.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
